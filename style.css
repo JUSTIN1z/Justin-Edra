@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body,html{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #000000;
+}
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 4%;
+  margin-top: 10px;
+  font-family:'New Rocker', cursive;
+  color: #2f00ff;
+  font-size: 40px;
+}
+.color-text{
+  color: #ffffff;
+  font-family:'New Rocker', cursive;;
+  font-size: 40px;
+}
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8 px;
+}
+li{
+  display: inline-block;
+  padding: 15px 30px;
+}
+a{
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family:'IM Fell English SC', serif;
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 8px
+}
+a:hover {
+  background-color: #2f00ff;
+  color: rgb(255, 255, 255);
+}
+img{
+  width: 584px;
+  height: 712px;
+  margin-top: -16px;
+  margin-right: 50px;
+  float: right;
+  clear: right;
+  
+
+}
+body{
+  background-color: rgb(68, 208, 255);
+}
+h2{
+
+  font-size: 200px;
+  font-family: 'Archivo Black', sans-serif;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+
+h3
+{
+  color: #000000;
+  font-size: 39px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+.color-text1{
+  color: #2f00ff;
+  font-size: 90px;
+  font-family: 'Tangerine', cursive;
+  margin-top: 0px;
+
+}
+.Contact{
+  border: 5px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-left: 300px;
+  font-size: 30px;
+  color: #2f00ff;
+
+ 
+}
+a:hover.Contact{
+  background-color: rgb(255, 255, 255);
+  color: rgb(47, 0, 255);
+}
+
+body{
+  animation: transitionIn 0.50s; 
+}
+@keyframes transitionIn{
+  from{
+      opacity: 0;
+      transform: translateY(0);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+li a:hover:not(.active) {
+  background-color: #2f00ff;
+}
+
+.active {
+  background-color: #2f00ff;
+}
